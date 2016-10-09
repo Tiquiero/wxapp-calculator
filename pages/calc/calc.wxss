@@ -1,0 +1,54 @@
+.content{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    background-color: #ccc;
+}
+.screen {
+    text-align: right;
+    width: 100%;
+    height: 250rpx;
+    line-height: 250rpx;
+    padding: 0 10rpx;
+    margin-bottom: 30rpx;
+    font-weight: bold;
+    font-size: 60px;
+    box-sizing: border-box;
+    border-top: 1px solid #fff;
+}
+.btnGroup {
+    display:flex;
+    flex-direction:row;
+    flex:1;
+    width: 100%;
+    background-color: #fff;
+}
+.item {
+    width:25%;
+    display: flex;
+    align-items: center;   /*设置或检索弹性盒子元素在侧轴（纵轴）方向上的对齐方式。*/
+    justify-content: center;  /*设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。*/
+    margin-top: 1px;
+    margin-right: 1px;
+}
+.item:active {
+    background-color: gray;
+}
+.orange {
+    color: #fef4e9;
+    background: #f78d1d;
+    font-weight: bold;
+}
+.blue {
+    color:#d9eef7;
+    background-color: #0095cd;
+}
+.icon{
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+}
+.zero{
+    width:50%;
+}

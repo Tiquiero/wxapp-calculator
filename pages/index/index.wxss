@@ -1,0 +1,39 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.button-hover{
+    background-color:red;
+}
+
+.navigator-hover{
+    color:blue;
+}
+.github{
+    color:green;
+    font-size:14px;
+    text-align:center;
+    margin-top:5px;
+}
+.icon{
+  vertical-align: middle;
+  margin-right: 2px;
+}
